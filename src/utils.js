@@ -3,5 +3,5 @@ export const formatDate = (date) => {
 };
 
 export const validateTodo = (text) => {
-  return text && text.trim().length > 0;
+  return !!text && text.trim().length > 0;
 };
