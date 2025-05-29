@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-
+import { Variables } from './Variables';
 function App() {
   const [todos, setTodos] = useState([]);
   const [inputValue, setInputValue] = useState('');
@@ -58,6 +58,9 @@ function App() {
           ))}
         </ul>
       </header>
+      <main>
+        <Variables/>
+      </main>
     </div>
   );
 }
