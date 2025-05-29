@@ -71,7 +71,9 @@ After build: The word "process" doesn't actually exist in your bundled code - it
             <li>
                 <h2>Build time</h2>
                 {/* <p>{JSON.stringify(process?.env, null, 2)}</p> */}
-                <span></span>
+                <span>REPO_SECRET: {REPO_SECRET}</span>
+                <span>REPO_VARIABLE: {REPO_VARIABLE}</span>
+                <span>VERSION: {VERSION}</span>
             </li>
             <li>
                 <h2>Deploy time</h2>
